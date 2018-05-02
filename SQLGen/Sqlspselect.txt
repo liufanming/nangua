@@ -1,0 +1,1 @@
+  if (object_id('sp_selA30', 'P') is not null)  drop proc  sp_selA30 go create proc  sp_selA30( @D110  varchar(20)) as select * from A30 where  D110 = @D110 go   if (object_id('sp_selA70', 'P') is not null)  drop proc  sp_selA70 go create proc  sp_selA70( @D110  varchar(20)) as select * from A30 select * from A70 where  D110 = @D110 go 
