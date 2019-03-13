@@ -1,1 +1,0 @@
-create table A30(  D110   varchar(20)  primary key , D130   int, D132   int, D134   int, D136   int, D138   int, D140   int, D142   int, D144   int)create table A70(  D110   varchar(20)  primary key , D310   int, D132   int, D134   int, D136   int, D138   int, D140   int, D142   int, D144   int)
